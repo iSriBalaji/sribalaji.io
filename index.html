@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Balaji - Personal Branding</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .typewriter span {
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 3s steps(30, end), blink .75s step-end infinite;
+            border-right: 2px solid white;
+        }
+
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+
+        @keyframes blink {
+            50% { border-color: transparent; }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans tracking-wide">
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-blue-600 to-indigo-800 text-white text-center py-24">
+        <div class="container mx-auto px-6">
+            <h1 class="text-5xl font-extrabold mb-4">Sri Balaji Muruganandam</h1>
+            <p class="text-xl mb-6">Data Engineer | Software Developer | Innovator</p>
+            <div class="typewriter text-xl mb-8">
+                <span>"Navigating the intersection of data, software, and problem-solving."</span>
+            </div>
+            <div class="flex justify-center space-x-6">
+                <a href="https://www.linkedin.com/in/isribalaji" target="_blank" class="bg-white text-blue-600 px-6 py-3 rounded-full shadow-md hover:bg-blue-50 transition">LinkedIn</a>
+                <a href="https://twitter.com/iSriBalaji" target="_blank" class="bg-white text-blue-600 px-6 py-3 rounded-full shadow-md hover:bg-blue-50 transition">Twitter</a>
+                <a href="https://github.com/iSriBalaji" target="_blank" class="bg-white text-blue-600 px-6 py-3 rounded-full shadow-md hover:bg-blue-50 transition">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="bg-white py-20 px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-gray-800">About Me</h2>
+            <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">I'm a passionate Data Engineer with experience in designing efficient data pipelines, ensuring data quality, and optimizing workflows. Beyond my technical pursuits, I enjoy chess, skating, and learning Spanish on Duolingo with a 750+ day streak!</p>
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold text-gray-800">Skills</h3>
+                    <p class="mt-4 text-gray-600">BigQuery, Airflow, FastAPI, Python, Docker, ETL</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold text-gray-800">Certifications</h3>
+                    <p class="mt-4 text-gray-600">Google Cloud Professional Data Engineer, AWS Cloud Practitioner</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold text-gray-800">Interests</h3>
+                    <p class="mt-4 text-gray-600">Chess, Raspberry Pi, Skating, Formula 1, Books</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+<section id="experience" class="bg-gray-50 py-20 px-6">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-semibold text-gray-800 text-center">Experience</h2>
+        <div class="mt-12 space-y-8">
+            <!-- Resultant -->
+            <div class="bg-white p-8 rounded-lg shadow-md">
+                <div class="flex items-center mb-4">
+                    <img src="logos/resultant.jpg" alt="Resultant Logo" class="w-16 h-16 rounded-full mr-4">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800">Data Engineer II</h3>
+                        <p class="text-gray-600">Resultant - Indiana, US (April 2023 - Present)</p>
+                    </div>
+                </div>
+                <p class="mt-4 text-gray-600">Building a Data Vault 2.0 based data lakehouse and ETL pipelines on Google Cloud using CloudSQL, BigQuery, Python, and Airflow to improve the data infrastructure of the Colorado State Healthcare System (CDPHE). Orchestrated data pipelines with Airflow, defining dependencies across hub, satellite, and link tables to ensure seamless data flow.</p>
+            </div>
+            
+            <!-- Fellowship.ai -->
+            <div class="bg-white p-8 rounded-lg shadow-md">
+                <div class="flex items-center mb-4">
+                    <img src="logos/fellowship.png" alt="Fellowship.ai Logo" class="w-16 h-16 rounded-full mr-4">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800">Data Science Intern</h3>
+                        <p class="text-gray-600">Fellowship.ai - Hawaii, US (Remote) (June 2022 - August 2022)</p>
+                    </div>
+                </div>
+                <p class="mt-4 text-gray-600">Developed a BERT-based Transformer Model for addressing Plant-Based Nutrition Inquiries, Drawing Insights from an Extensive Collection of 2500+ Videos, Blogs, and Podcasts. Coordinated a team of 8 by organizing daily scrums, managing, and reporting to manager.</p>
+            </div>
+            
+            <!-- Tata Consultancy Services -->
+            <div class="bg-white p-8 rounded-lg shadow-md">
+                <div class="flex items-center mb-4">
+                    <img src="logos/tcs.png" alt="Tata Consultancy Services Logo" class="w-16 h-16 rounded-full mr-4">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800">Data Engineer</h3>
+                        <p class="text-gray-600">Tata Consultancy Services (Digital) - Chennai, India (August 2020 - July 2021)</p>
+                    </div>
+                </div>
+                <p class="mt-4 text-gray-600">Established Robust ETL Data Pipelines on Cloud Data Fusion, Leveraging GCS as the Data Lake and BigQuery to build Enterprise Data Warehouse for Vodafone. The pipelines were instrumental in preparing data for comprehensive business analytics across Vodafone's operations in Hungary. The orchestration of these pipelines was seamlessly managed using Apache Airflow within Cloud Composer.</p>
+            </div>
+            
+            <!-- KPMG -->
+            <div class="bg-white p-8 rounded-lg shadow-md">
+                <div class="flex items-center mb-4">
+                    <img src="logos/kpmg.png" alt="KPMG Logo" class="w-16 h-16 rounded-full mr-4">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800">Data Analytics Virtual Internship</h3>
+                        <p class="text-gray-600">KPMG - Chennai, India (Remote) (June 2020 - July 2020)</p>
+                    </div>
+                </div>
+                <p class="mt-4 text-gray-600">Worked on an analytics project, spanning Data Cleansing, Exploration, Visualization, and Presentation, driven by three distinct modules.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="bg-white py-20 px-6">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-semibold text-gray-800">Projects</h2>
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Sentiment Analysis on Social Engagement Platform -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">Sentiment Analysis on Social Engagement Platform</h3>
+                <p class="mt-4 text-gray-600">Developed for Morgan Stanley - Code to give hackathon</p>
+                <ul class="list-disc list-inside text-gray-600">
+                    <li>Performs Sentiment analysis on users' posts using Natural Language Processing</li>
+                    <li>Uses Google Analytics to measure user activity on the platform</li>
+                    <li>SEO optimized application built on Django framework</li>
+                </ul>
+                <a href="https://github.com/iSriBalaji/Code-To-Give-Mavericks" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">View Project</a>
+                <a href="https://atlanta-mission.herokuapp.com/" target="_blank" class="mt-4 inline-block text-blue-600 hover:underline">Check Out</a>
+            </div>
+
+            <!-- Clinicon - Medical Assistance for Rural People -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">Clinicon - Medical Assistance for Rural People</h3>
+                <p class="mt-4 text-gray-600">Full stack desktop application to predict diseases with greatest likelihood without any human intervention</p>
+                <ul class="list-disc list-inside text-gray-600">
+                    <li>Uses Google Speech to Text API to convert patient's speech to text</li>
+                    <li>Uses eSpeak synthesizer to convert text to speech</li>
+                    <li>Patent No: 202041009208 | Intellectual Property India</li>
+                </ul>
+                <a href="https://github.com/iSriBalaji/Clinicon-Medical-Assistant" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">View Project</a>
+                <a href="https://www.youtube.com/watch?v=pA6wOhfTQgU&ab_channel=VelammalItechECE" target="_blank" class="mt-4 inline-block text-blue-600 hover:underline">Check Out</a>
+            </div>
+
+            <!-- 911 – What & How Well Do They Serve -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">911 – What & How Well Do They Serve</h3>
+                <p class="mt-4 text-gray-600">Performed EDA to analyze and visualize the uncovered structure of the New York state’s 911 dataset</p>
+                <ul class="list-disc list-inside text-gray-600">
+                    <li>Modeled regression to predict response time of future crimes</li>
+                    <li>Classified incidents by logistic regression with an accuracy of 83%</li>
+                </ul>
+                <a href="https://github.com/iSriBalaji/911-Analysis" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">View Project</a>
+                <a href="https://docs.google.com/document/d/1-IknBpRzrvBQYOJO4tJZJ7_5HUE7n4qZ0NDiaCdMbHA/edit" target="_blank" class="mt-4 inline-block text-blue-600 hover:underline">Check Out</a>
+            </div>
+
+            <!-- WDD - Washer Dryer Detector -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">WDD - Washer Dryer Detector</h3>
+                <p class="mt-4 text-gray-600">Building a hardware device to detect the status of washer and dryer using sensors, microprocessor</p>
+                <ul class="list-disc list-inside text-gray-600">
+                    <li>Currently building the API for the device and testing each sensor separately</li>
+                    <li>Mentors: Alex Kuksenko and Neil Kilpatrik</li>
+                </ul>
+                <a href="https://github.com/iSriBalaji/wdd" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">View Project</a>
+            </div>
+
+            <!-- Content Moderation using AWS Rekognition, S3, and Lambda -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">Content Moderation using AWS Rekognition, S3, and Lambda</h3>
+                <p class="mt-4 text-gray-600">Built a small web app where users can upload images to an S3 Bucket, triggering a Lambda function to check the image for inappropriate content using AWS Rekognition.</p>
+                <a href="https://github.com/iSriBalaji/aws" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">View Project</a>
+            </div>
+
+            <!-- FastAPI Hands-on using User and Post Endpoints -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">FastAPI Hands-on using User and Post Endpoints</h3>
+                <p class="mt-4 text-gray-600">As part of the Udemy course, learned FastAPI hands-on with an example.</p>
+                <a href="https://github.com/iSriBalaji/fastapi/tree/main" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">View Project</a>
+            </div>
+
+            <!-- Alert Roommates on Important Dates and Events using Email Client -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">Alert Roommates on Important Dates and Events using Email Client</h3>
+                <p class="mt-4 text-gray-600">Reads a spreadsheet, processes the file, and sends emails to roommates about important bill dates, weather, and events.</p>
+                <a href="https://github.com/iSriBalaji/fastapi/tree/main" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">View Project</a>
+            </div>
+
+            <!-- Clustering and Visualization of Social Media Content Posts using NLTK -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">Clustering and Visualization of Social Media Content Posts using NLTK</h3>
+                <p class="mt-4 text-gray-600">Cleaned data, created Bag of Words, clustered data using K-means clustering model, and visualized trends in Tableau.</p>
+                <a href="https://github.com/iSriBalaji/Twitter-and-Facebook-post-clustering" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">View Project</a>
+                <a href="https://www.kaggle.com/code/isribalaji/intern-k-means/notebook" target="_blank" class="mt-4 inline-block text-blue-600 hover:underline">Check Out</a>
+            </div>
+
+            <!-- Flutter Dice App -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">Flutter Dice App</h3>
+                <p class="mt-4 text-gray-600">Built an Android and iOS app that simulates a dual dice roll and sends a notification when both dice show the same number.</p>
+                <a href="https://github.com/iSriBalaji/Square-Dice" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">View Project</a>
+            </div>
+            
+            <!-- Know Earth - Flutter Quiz App -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">Know Earth - Flutter Quiz App</h3>
+                <p class="mt-4 text-gray-600">An Android and iOS quiz app with questions about facts on Earth.</p>
+                <a href="https://github.com/iSriBalaji/Flutter_Quiz" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">View Project</a>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Education Section -->
+<section id="education" class="bg-white py-20 px-6">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-semibold text-gray-800">Education</h2>
+        <div class="mt-12 space-y-8">
+            <!-- University at Buffalo -->
+            <div class="bg-gray-100 p-8 rounded-lg shadow-md">
+                <div class="flex items-center mb-4">
+                    <img src="logos/ub.svg" alt="University at Buffalo Logo" class="w-16 h-16 rounded-full mr-4">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800">Data Sciences and Applications</h3>
+                        <p class="text-gray-600">University at Buffalo, SUNY (2021 - 2023)</p>
+                        <p class="text-gray-600">Masters of Professional Studies</p>
+                    </div>
+                </div>
+                <p class="mt-4 text-gray-600">Awards and Achievements:</p>
+                <ul class="list-disc list-inside text-gray-600">
+                    <li>Finalist of Buffalo Startup Weekend 2022</li>
+                    <li>Volunteered for BSW'22 and Startup Coffee</li>
+                    <li>Won 1st place in Code-to-give Hackathon conducted by Morgan Stanley</li>
+                    <li>Participated in UB Chess Club Sessions</li>
+                </ul>
+            </div>
+
+            <!-- Anna University -->
+            <div class="bg-gray-100 p-8 rounded-lg shadow-md">
+                <div class="flex items-center mb-4">
+                    <img src="logos/annauniv.png" alt="Anna University Logo" class="w-16 h-16 rounded-full mr-4">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800">Electronics and Communication Engineering</h3>
+                        <p class="text-gray-600">Anna University (2016 - 2020)</p>
+                        <p class="text-gray-600">Bachelors of Engineering</p>
+                    </div>
+                </div>
+                <p class="mt-4 text-gray-600">Awards and Achievements:</p>
+                <ul class="list-disc list-inside text-gray-600">
+                    <li>58th All India Rank in National Creativity Aptitude Test</li>
+                    <li>Winner of "Design Your Destiny 2019" hardware hackathon among 5000 teams across India</li>
+                    <li>Best Paper Award - International Conference on Research Advancements & Challenges in Engineering Sciences (ICRACE’20)</li>
+                    <li>Editor of Department Newsletter (2018 & 2019)</li>
+                </ul>
+            </div>
+
+            <!-- SRM University -->
+            <div class="bg-gray-100 p-8 rounded-lg shadow-md">
+                <div class="flex items-center mb-4">
+                    <img src="logos/srm.png" alt="SRM University Logo" class="w-16 h-16 rounded-full mr-4">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800">Diploma in Yoga for Human Excellence</h3>
+                        <p class="text-gray-600">SRM University (2014 - 2016)</p>
+                        <p class="text-gray-600">Diploma</p>
+                    </div>
+                </div>
+                <p class="mt-4 text-gray-600">Awards and Achievements:</p>
+                <ul class="list-disc list-inside text-gray-600">
+                    <li>Learned comprehensive practical and theoretical aspects of physical, mental, social, and spiritual well-being</li>
+                    <li>Completed the diploma with first class distinction. Secured 3rd rank in the program that year</li>
+                    <li>Followed a daily routine with 40 minutes of exercise and meditation as part of the curriculum</li>
+                    <li>FUN FACT: I can legally be a yoga teacher/trainer</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Courses Section -->
+<section id="courses" class="bg-white py-20 px-6">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-semibold text-gray-800">Courses & Certifications</h2>
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Google Cloud Professional Database Engineer -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">Google Cloud Professional Database Engineer</h3>
+                <p class="text-gray-600">Provider: Google Cloud</p>
+                <a href="https://google.accredible.com/34d44edc-b176-4896-9ddd-fd26ed017a1e" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">View Certificate</a>
+            </div>
+
+            <!-- Apache Airflow Fundamentals -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">Apache Airflow Fundamentals</h3>
+                <p class="text-gray-600">Provider: Astronomer</p>
+                <a href="https://www.credly.com/badges/3ec6c1e6-4ff6-46e3-be4a-1a788801e94d/public_url" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">View Certificate</a>
+            </div>
+
+            <!-- Google Cloud Professional Data Engineer -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">Google Cloud Professional Data Engineer</h3>
+                <p class="text-gray-600">Provider: Google Cloud</p>
+                <a href="https://www.credential.net/a9b6663f-8e2c-4d8f-93be-ae5609f82ba0" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">View Certificate</a>
+            </div>
+
+            <!-- Programming, Data Structures and Algorithms using Python -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">Programming, Data Structures and Algorithms using Python</h3>
+                <p class="text-gray-600">Provider: IIT Madras, NPTEL</p>
+                <p class="text-gray-600">Elite + Silver</p>
+                <a href="https://drive.google.com/file/d/1GZ-MoORM5luoOnqAOGDjlrz9vHkwpL2S/view?usp=share_link" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">View Certificate</a>
+            </div>
+
+            <!-- AWS Certified Cloud Practitioner -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">AWS Certified Cloud Practitioner</h3>
+                <p class="text-gray-600">Provider: Amazon Web Services</p>
+                <p class="text-gray-600">Check my AWS CCP notes on GitHub</p>
+                <a href="https://www.credly.com/badges/e8ba50ba-d6cd-4244-b484-ad5cf0b6b650/public_url" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">View Certificate</a>
+            </div>
+
+            <!-- Tensorflow Developer Certification -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">Tensorflow Developer Certification</h3>
+                <p class="text-gray-600">Provider: Google</p>
+                <p class="text-gray-600">In Progress</p>
+            </div>
+
+            <!-- Docker for Beginner - Hands On - DevOps -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">Docker for Beginner - Hands On - DevOps</h3>
+                <p class="text-gray-600">Provider: Udemy</p>
+                <a href="https://drive.google.com/file/d/1H1T5jxyecUjHdUrjXwp8RJwT1sG-3sf6/view?usp=sharing" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">View Certificate</a>
+            </div>
+
+            <!-- Image Processing using Cloud -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">Image Processing using Cloud</h3>
+                <p class="text-gray-600">Provider: Techfest, IIT Bombay</p>
+                <a href="https://www.prismcode.in/certificate/?i=Tm1FeE5UaGpNV0V5WkRNMVlqWTJZbVk1TURrME16RTVaVEJrT1RReVpURXdOamhqWWpobU5TMVFRMVJKTWpVPQ==&s=WW1GbFpHSmtNVGRrTTJFeU9HWTRaV1psT0dRME9ETmlaamd3WW1ReVl6WTNZelV6TnpBek5pMDU=" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">View Certificate</a>
+            </div>
+
+            <!-- Big Data with Apache Spark and Python -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">Big Data with Apache Spark and Python</h3>
+                <p class="text-gray-600">Provider: Udemy</p>
+                <a href="https://www.udemy.com/certificate/UC-d49103ce-a0bc-4a9e-a7d4-a7215fb9794d/" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">View Certificate</a>
+            </div>
+
+            <!-- Machine Learning -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">Machine Learning</h3>
+                <p class="text-gray-600">Provider: Andrew NG, Coursera</p>
+            </div>
+
+            <!-- Sentiment Analysis in Python -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">Sentiment Analysis in Python</h3>
+                <p class="text-gray-600">Provider: DataCamp</p>
+                <a href="https://www.datacamp.com/statement-of-accomplishment/course/fec52a7cde63ec651f9dbccba4a4c256e5dd3915" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">View Certificate</a>
+            </div>
+
+            <!-- Image Processing with Keras in Python -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">Image Processing with Keras in Python</h3>
+                <p class="text-gray-600">Provider: DataCamp</p>
+                <a href="https://www.datacamp.com/statement-of-accomplishment/course/1718dcc6e8a7b53361079851b4001b5c33503e16" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">View Certificate</a>
+            </div>
+
+            <!-- Introduction to Deep Learning in Python -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">Introduction to Deep Learning in Python</h3>
+                <p class="text-gray-600">Provider: DataCamp</p>
+                <a href="https://www.datacamp.com/statement-of-accomplishment/course/d6125bd3a99ec6dcf482d15bcd8840bb15752998" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">View Certificate</a>
+            </div>
+
+            <!-- Hadoop Linkedin Certification -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800">Hadoop Linkedin Certification</h3>
+                <p class="text-gray-600">Provider: Linkedin Learning Courses®</p>
+                <a href="https://drive.google.com/file/d/1HjcQU2fJWCQpoo4LDqRXfBteQa_jqAOK/view?usp=sharing" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">View Certificate</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gray-50 py-20 px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-gray-800">Let's Connect</h2>
+            <p class="mt-4 text-gray-600">I'd love to hear from you! Feel free to reach out.</p>
+            <div class="mt-8 space-x-6">
+                <a href="mailto:contact@isribalaji.in" class="bg-blue-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-500 transition">Email Me</a>
+                <a href="https://www.linkedin.com/in/isribalaji" target="_blank" class="bg-blue-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-500 transition">LinkedIn</a>
+                <a href="https://twitter.com/iSriBalaji" target="_blank" class="bg-blue-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-500 transition">Twitter</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 text-center">
+        <p>&copy; 2025 Sri Balaji Muruganandam. All Rights Reserved.</p>
+        <p>Follow me: 
+            <a href="https://www.linkedin.com/in/isribalaji" class="hover:underline">LinkedIn</a> | 
+            <a href="https://twitter.com/iSriBalaji" class="hover:underline">Twitter</a> | 
+            <a href="https://github.com/iSriBalaji" class="hover:underline">GitHub</a>
+        </p>
+    </footer>
+
+</body>
+</html>
